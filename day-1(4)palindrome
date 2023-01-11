@@ -1,0 +1,12 @@
+ def is_palindrome(x):
+  x = str(x)
+  return x == x[::-1]
+
+print(is_palindrome(12321))
+[10:10 am, 11/01/2023] Bharat F Engineering College: loaves=int(input("enter the number of loaves of day old bread:"))
+regular_price=185*loaves
+discount=regular_price*0.6
+total_price=regular_price-discount
+print("regular price :rs.{:.2f}".format(regular_price))
+print("discount price:rs.{:.2f}".format(discount))
+print("total price:rs.{:.2f}".format(total_price))
