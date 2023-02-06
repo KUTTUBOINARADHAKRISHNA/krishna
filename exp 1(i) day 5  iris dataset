@@ -1,0 +1,23 @@
+2.Load dataset named ChickWeight, 
+i.Order the data frame, in ascending order by feature name
+“weight” grouped by   feature
+“diet” and Extract the last 6
+records from order data frame.
+
+program :
+
+chick0 <- ChickWeight[ChickWeight$Time == 0, ]
+chick0
+
+output :
+
+    weight Time Chick Diet
+1       42    0     1    1
+13      40    0     2    1
+25      43    0     3    1
+37      42    0     4    1
+49      41    0     5    1
+61      41    0     6    1
+73      41    0     7    1
+85      42    0     8    1
+96      42    0     9    1
